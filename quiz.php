@@ -50,6 +50,8 @@ include "function.php";
             <!-- Result box at top -->
             <div class="result-box alert alert-success text-center" id="resultBox">
                 You got <strong id="correctCount">0</strong> out of 10 correct!
+                <br>
+                <button class="btn btn-secondary mt-3" onclick="resetQuiz()">Try Again</button>
             </div>
 
 
@@ -187,6 +189,13 @@ include "function.php";
                 document.getElementById("resultBox").style.display = "block";
                 window.scrollTo({ top: 0, behavior: 'smooth' });
             }
+            function resetQuiz() {
+                const form = document.getElementById("quizForm");
+                form.reset(); // Uncheck all answers
+                document.getElementById("resultBox").style.display = "none";
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+
         </script>
 
 

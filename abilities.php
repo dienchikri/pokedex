@@ -27,7 +27,7 @@ include "function.php";
             <h2 class="mb-3 ">Sandslash stats</h2>
             <table class="table table-sm table-hover align-middle mb-0">
                 <tbody>
-                <tr class="table-light align-middle">
+                <tr class="table-dark align-middle">
                     <th scope="row" class="py-1 pe-1" style="width: 60px;">HP</th>
                     <td class="py-1 px-1 text-end" style="width: 40px;">75</td>
                     <td class="py-1 px-1" colspan="2">
@@ -45,7 +45,7 @@ include "function.php";
                     </td
                 </tr>
 
-                <tr class="table-light align-middle">
+                <tr class="table-dark align-middle">
                     <th scope="row" class="py-1 pe-1">Attack</th>
                     <td class="py-1 px-1 text-end">100</td>
                     <td class="py-1 px-1" colspan="2">
@@ -63,7 +63,7 @@ include "function.php";
                     </td>
                 </tr>
 
-                <tr class="table-light align-middle">
+                <tr class="table-dark align-middle">
                     <th scope="row" class="py-1 pe-1">Defense</th>
                     <td class="py-1 px-1 text-end">110</td>
                     <td class="py-1 px-1" colspan="2">
@@ -81,7 +81,7 @@ include "function.php";
                     </td>
                 </tr>
 
-                <tr class="table-light align-middle">
+                <tr class="table-dark align-middle">
                     <th scope="row" class="py-1 pe-1">Sp.Atk</th>
                     <td class="py-1 px-1 text-end">45</td>
                     <td class="py-1 px-1" colspan="2">
@@ -99,7 +99,7 @@ include "function.php";
                     </td>
                 </tr>
 
-                <tr class="table-light align-middle">
+                <tr class="table-dark align-middle">
                     <th scope="row" class="py-1 pe-1">Sp.Def</th>
                     <td class="py-1 px-1 text-end">55</td>
                     <td class="py-1 px-1" colspan="2">
@@ -117,7 +117,7 @@ include "function.php";
                     </td>
                 </tr>
 
-                <tr class="table-light align-middle">
+                <tr class="table-dark align-middle">
                     <th scope="row" class="py-1 pe-1">Speed</th>
                     <td class="py-1 px-1 text-end">65</td>
                     <td class="py-1 px-1" colspan="2">
@@ -135,7 +135,7 @@ include "function.php";
                     </td>
                 </tr>
 
-                <tr class="table-light fw-bold">
+                <tr class="table-dark fw-bold">
                     <td>Total</td>
                     <td class="text-end">450</td>
                     <td colspan="2" class="text-end">Min / Max</td>
